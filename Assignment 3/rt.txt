@@ -1,0 +1,7 @@
+2 //node number
+3 //number of edge weights
+192.168.1.1 192.168.1.2 192.168.1.3 //edge weights (one per neighbor)
+4 //number of routing table entries
+10.0.0.1 10.0.0.2 10.0.0.3 10.0.0.4 //destination network IP addresses in routing table
+192.168.1.1 192.168.1.2 192.168.1.2 192.168.1.3 //IP address of next hop to reach each destination network
+1 4 5 7 //distance to each destination network in routing table
